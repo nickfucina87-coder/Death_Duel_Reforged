@@ -32,6 +32,7 @@ This milestone is a target, not an existing build.
 | [First milestone](docs/FIRST_MILESTONE.md) | Smallest meaningful implementation sequence and acceptance checks |
 | [Project status](docs/STATUS.md) | Created, verified, and unfinished work |
 | [Contributor rules](AGENTS.md) | Guardrails for humans and development agents |
+| [Connect your tools](docs/CONNECT_YOUR_TOOLS.md) | Use this repository in ChatGPT, Cursor, and Claude |
 
 ## Before anyone writes game code
 

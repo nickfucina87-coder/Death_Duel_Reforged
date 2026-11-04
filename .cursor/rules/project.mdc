@@ -1,0 +1,12 @@
+---
+description: Shared Death Duel Reforged project rules and current authorization
+alwaysApply: true
+---
+
+Read AGENTS.md and docs/STATUS.md before acting. Those files hold the shared project instructions and current progress.
+
+Current scope: repository organization and documentation only. Do not implement or upload game code without a new, explicit owner instruction. No engine is selected.
+
+Preserve first-person gunner perspectives on separate devices, reticle aiming, bounded arena scrolling, and the two-player initial target.
+
+Keep decisions in the repository so ChatGPT, Cursor, and Claude can read the same record. Distinguish proposals from implementation and verified functionality.
