@@ -13,11 +13,13 @@ The initial inspection found only README.md with the project name. During setup,
 | Engine | No engine project present; selection open |
 | Architecture | No gameplay architecture present |
 | Code | No game source present |
-| Assets | No game assets committed |
+| Assets | `Ember/` Inochi2D look pack (reference art and puppet files). No gameplay asset pipeline |
 | Functionality | No implemented or verified game functionality |
 | Existing decisions | User's design brief; preserved in DESIGN_BRIEF.md |
 
 The README and root contents were fetched directly from GitHub. No claim is made about unpublished files on either developer's PC.
+
+`Ember/` was added after that inspection. It is Nick’s Inochi2D look pack for Claude. It does not add an engine, game source, or implemented gameplay.
 
 ## Decisions required before implementation
 

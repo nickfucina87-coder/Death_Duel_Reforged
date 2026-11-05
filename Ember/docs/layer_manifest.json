@@ -1,0 +1,1703 @@
+{
+  "version": 12,
+  "canvas": [
+    971,
+    1620
+  ],
+  "refs": {
+    "closed": "qa/still_closed.png",
+    "shirt": "qa/still_shirt.png"
+  },
+  "head": {
+    "locked": true,
+    "attach_pivot_px": [
+      485.0,
+      296.0
+    ],
+    "note": "head_approved.png untouched; QA head plates in qa/ are stand-ins only"
+  },
+  "pivots": {
+    "head_attach": [
+      485.0,
+      296.0
+    ],
+    "neck": [
+      485.0,
+      318.0
+    ],
+    "L_sh": [
+      348.0,
+      405.0
+    ],
+    "R_sh": [
+      622.0,
+      405.0
+    ],
+    "L_elb": [
+      218.0,
+      437.0
+    ],
+    "R_elb": [
+      752.0,
+      437.0
+    ],
+    "L_jacket_hinge": [
+      380.0,
+      345.0
+    ],
+    "R_jacket_hinge": [
+      590.0,
+      345.0
+    ],
+    "L_wri": [
+      100.0,
+      448.0
+    ],
+    "R_wri": [
+      868.0,
+      448.0
+    ],
+    "hips": [
+      485.0,
+      700.0
+    ],
+    "L_hip": [
+      418.0,
+      790.0
+    ],
+    "R_hip": [
+      552.0,
+      790.0
+    ],
+    "L_knee": [
+      380.0,
+      1112.0
+    ],
+    "R_knee": [
+      590.0,
+      1112.0
+    ],
+    "L_ank": [
+      372.0,
+      1290.0
+    ],
+    "R_ank": [
+      595.0,
+      1290.0
+    ]
+  },
+  "layer_count": 83,
+  "layers": [
+    {
+      "name": "boot_L",
+      "file": "legs/boot_L.png",
+      "group": "legs",
+      "parent": "LegL",
+      "z_order": 2,
+      "pivot_px": [
+        372.0,
+        1290.0
+      ],
+      "stacks": "both",
+      "opaque_px": 29299,
+      "visible_px_closed": 23166,
+      "visible_px_shirt": 22746,
+      "hidden_px": 6133,
+      "hidden_max_extent_px": 61,
+      "hidden_zones": [
+        "boot_tops_under_pant_cuff"
+      ]
+    },
+    {
+      "name": "boot_R",
+      "file": "legs/boot_R.png",
+      "group": "legs",
+      "parent": "LegR",
+      "z_order": 2,
+      "pivot_px": [
+        595.0,
+        1290.0
+      ],
+      "stacks": "both",
+      "opaque_px": 29060,
+      "visible_px_closed": 23074,
+      "visible_px_shirt": 22851,
+      "hidden_px": 5986,
+      "hidden_max_extent_px": 57,
+      "hidden_zones": [
+        "boot_tops_under_pant_cuff"
+      ]
+    },
+    {
+      "name": "lower_leg_L",
+      "file": "legs/lower_leg_L.png",
+      "group": "legs",
+      "parent": "LegL",
+      "z_order": 4,
+      "pivot_px": [
+        380.0,
+        1112.0
+      ],
+      "stacks": "both",
+      "opaque_px": 27692,
+      "visible_px_closed": 18723,
+      "visible_px_shirt": 18021,
+      "hidden_px": 8969,
+      "hidden_max_extent_px": 74,
+      "hidden_zones": [
+        "lower_leg_up_under_knee"
+      ]
+    },
+    {
+      "name": "lower_leg_R",
+      "file": "legs/lower_leg_R.png",
+      "group": "legs",
+      "parent": "LegR",
+      "z_order": 4,
+      "pivot_px": [
+        590.0,
+        1112.0
+      ],
+      "stacks": "both",
+      "opaque_px": 27090,
+      "visible_px_closed": 18512,
+      "visible_px_shirt": 18474,
+      "hidden_px": 8578,
+      "hidden_max_extent_px": 74,
+      "hidden_zones": [
+        "lower_leg_up_under_knee"
+      ]
+    },
+    {
+      "name": "knee_overlap_L",
+      "file": "legs/knee_overlap_L.png",
+      "group": "legs",
+      "parent": "LegL",
+      "z_order": 5,
+      "pivot_px": [
+        380.0,
+        1112.0
+      ],
+      "stacks": "both",
+      "opaque_px": 5563,
+      "visible_px_closed": 0,
+      "visible_px_shirt": 0,
+      "hidden_px": 5563,
+      "hidden_max_extent_px": 0,
+      "hidden_zones": [
+        "knee_overlap_cloth"
+      ]
+    },
+    {
+      "name": "knee_overlap_R",
+      "file": "legs/knee_overlap_R.png",
+      "group": "legs",
+      "parent": "LegR",
+      "z_order": 5,
+      "pivot_px": [
+        590.0,
+        1112.0
+      ],
+      "stacks": "both",
+      "opaque_px": 5308,
+      "visible_px_closed": 0,
+      "visible_px_shirt": 0,
+      "hidden_px": 5308,
+      "hidden_max_extent_px": 0,
+      "hidden_zones": [
+        "knee_overlap_cloth"
+      ]
+    },
+    {
+      "name": "thigh_L",
+      "file": "legs/thigh_L.png",
+      "group": "legs",
+      "parent": "LegL",
+      "z_order": 6,
+      "pivot_px": [
+        418.0,
+        790.0
+      ],
+      "stacks": "both",
+      "opaque_px": 60360,
+      "visible_px_closed": 24892,
+      "visible_px_shirt": 24229,
+      "hidden_px": 34612,
+      "hidden_max_extent_px": 140,
+      "hidden_zones": [
+        "thigh_tops_under_pelvis+under_pouches_straps"
+      ]
+    },
+    {
+      "name": "thigh_R",
+      "file": "legs/thigh_R.png",
+      "group": "legs",
+      "parent": "LegR",
+      "z_order": 6,
+      "pivot_px": [
+        552.0,
+        790.0
+      ],
+      "stacks": "both",
+      "opaque_px": 59332,
+      "visible_px_closed": 22228,
+      "visible_px_shirt": 22284,
+      "hidden_px": 35725,
+      "hidden_max_extent_px": 141,
+      "hidden_zones": [
+        "thigh_tops_under_pelvis+under_pouches_straps"
+      ]
+    },
+    {
+      "name": "pelvis",
+      "file": "body/pelvis.png",
+      "group": "body",
+      "parent": "Body",
+      "z_order": 8,
+      "pivot_px": [
+        485.0,
+        700.0
+      ],
+      "stacks": "both",
+      "opaque_px": 63447,
+      "visible_px_closed": 15311,
+      "visible_px_shirt": 26056,
+      "hidden_px": 37016,
+      "hidden_max_extent_px": 88,
+      "hidden_zones": [
+        "under_belt_and_torso_hem"
+      ]
+    },
+    {
+      "name": "upper_arm_cap_L",
+      "file": "arms/upper_arm_cap_L.png",
+      "group": "arms",
+      "parent": "ArmL",
+      "z_order": 9,
+      "pivot_px": [
+        348.0,
+        405.0
+      ],
+      "stacks": "both",
+      "opaque_px": 6482,
+      "visible_px_closed": 0,
+      "visible_px_shirt": 0,
+      "hidden_px": 6482,
+      "hidden_max_extent_px": 0,
+      "hidden_zones": [
+        "shoulder_cap_and_armpit_underpaint(cloned along arm axis from upper_arm_L)"
+      ]
+    },
+    {
+      "name": "upper_arm_cap_R",
+      "file": "arms/upper_arm_cap_R.png",
+      "group": "arms",
+      "parent": "ArmR",
+      "z_order": 9,
+      "pivot_px": [
+        622.0,
+        405.0
+      ],
+      "stacks": "both",
+      "opaque_px": 6170,
+      "visible_px_closed": 0,
+      "visible_px_shirt": 0,
+      "hidden_px": 6170,
+      "hidden_max_extent_px": 0,
+      "hidden_zones": [
+        "shoulder_cap_and_armpit_underpaint(cloned along arm axis from upper_arm_R)"
+      ]
+    },
+    {
+      "name": "torso",
+      "file": "body/torso.png",
+      "group": "body",
+      "parent": "Body",
+      "z_order": 10,
+      "pivot_px": [
+        485.0,
+        520.0
+      ],
+      "stacks": "both",
+      "opaque_px": 96815,
+      "visible_px_closed": 17492,
+      "visible_px_shirt": 44591,
+      "hidden_px": 52224,
+      "hidden_max_extent_px": 92,
+      "hidden_zones": [
+        "shirt_under_jacket_harness_hair_shoulder_caps_belt"
+      ]
+    },
+    {
+      "name": "neck",
+      "file": "body/neck.png",
+      "group": "body",
+      "parent": "Body",
+      "z_order": 11,
+      "pivot_px": [
+        485.0,
+        318.0
+      ],
+      "stacks": "both",
+      "opaque_px": 9390,
+      "visible_px_closed": 2765,
+      "visible_px_shirt": 3437,
+      "hidden_px": 5798,
+      "hidden_max_extent_px": 34,
+      "hidden_zones": [
+        "neck_under_head_jaw_to_collar"
+      ]
+    },
+    {
+      "name": "harness_tuck_L",
+      "file": "harness/harness_tuck_L.png",
+      "group": "harness",
+      "parent": "Harness",
+      "z_order": 15,
+      "pivot_px": [
+        420.0,
+        650.0
+      ],
+      "stacks": "both",
+      "opaque_px": 7511,
+      "visible_px_closed": 0,
+      "visible_px_shirt": 0,
+      "hidden_px": 7511,
+      "hidden_max_extent_px": 0,
+      "hidden_zones": []
+    },
+    {
+      "name": "harness_tuck_R",
+      "file": "harness/harness_tuck_R.png",
+      "group": "harness",
+      "parent": "Harness",
+      "z_order": 15,
+      "pivot_px": [
+        550.0,
+        650.0
+      ],
+      "stacks": "both",
+      "opaque_px": 4015,
+      "visible_px_closed": 0,
+      "visible_px_shirt": 0,
+      "hidden_px": 4015,
+      "hidden_max_extent_px": 0,
+      "hidden_zones": []
+    },
+    {
+      "name": "d_ring_L",
+      "file": "physics/d_ring_L.png",
+      "group": "physics",
+      "parent": "PhysicsLoose",
+      "z_order": 16,
+      "pivot_px": [
+        380.0,
+        686.0
+      ],
+      "stacks": "both",
+      "opaque_px": 1512,
+      "visible_px_closed": 0,
+      "visible_px_shirt": 1512,
+      "hidden_px": 0,
+      "hidden_max_extent_px": 0,
+      "hidden_zones": []
+    },
+    {
+      "name": "d_ring_R",
+      "file": "physics/d_ring_R.png",
+      "group": "physics",
+      "parent": "PhysicsLoose",
+      "z_order": 16,
+      "pivot_px": [
+        596.0,
+        732.0
+      ],
+      "stacks": "both",
+      "opaque_px": 1093,
+      "visible_px_closed": 0,
+      "visible_px_shirt": 1093,
+      "hidden_px": 0,
+      "hidden_max_extent_px": 0,
+      "hidden_zones": []
+    },
+    {
+      "name": "sleeve_cap_L",
+      "file": "jacket/sleeve_cap_L.png",
+      "group": "jacket",
+      "parent": "SleeveL",
+      "z_order": 17,
+      "pivot_px": [
+        348.0,
+        405.0
+      ],
+      "stacks": "closed",
+      "opaque_px": 7698,
+      "visible_px_closed": 0,
+      "visible_px_shirt": 0,
+      "hidden_px": 7698,
+      "hidden_max_extent_px": 0,
+      "hidden_zones": [
+        "shoulder_cap_and_armpit_underpaint(cloned along arm axis from sleeve_upper_L)"
+      ]
+    },
+    {
+      "name": "sleeve_cap_R",
+      "file": "jacket/sleeve_cap_R.png",
+      "group": "jacket",
+      "parent": "SleeveR",
+      "z_order": 17,
+      "pivot_px": [
+        622.0,
+        405.0
+      ],
+      "stacks": "closed",
+      "opaque_px": 7710,
+      "visible_px_closed": 0,
+      "visible_px_shirt": 0,
+      "hidden_px": 7710,
+      "hidden_max_extent_px": 0,
+      "hidden_zones": [
+        "shoulder_cap_and_armpit_underpaint(cloned along arm axis from sleeve_upper_R)"
+      ]
+    },
+    {
+      "name": "back_mass",
+      "file": "jacket/back_mass.png",
+      "group": "jacket",
+      "parent": "Jacket",
+      "z_order": 18,
+      "pivot_px": [
+        485.0,
+        700.0
+      ],
+      "stacks": "closed",
+      "opaque_px": 39316,
+      "visible_px_closed": 84,
+      "visible_px_shirt": 0,
+      "hidden_px": 39232,
+      "hidden_max_extent_px": 583,
+      "hidden_zones": [
+        "jacket_back_inside_lining(cloned plain cloth)",
+        "jacket_back_rim_behind_panel_edges_and_shoulders"
+      ]
+    },
+    {
+      "name": "lining_crotch",
+      "file": "jacket/lining_crotch.png",
+      "group": "jacket",
+      "parent": "Jacket",
+      "z_order": 18,
+      "pivot_px": [
+        485.0,
+        700.0
+      ],
+      "stacks": "closed",
+      "opaque_px": 290,
+      "visible_px_closed": 290,
+      "visible_px_shirt": 0,
+      "hidden_px": 0,
+      "hidden_max_extent_px": 0,
+      "hidden_zones": []
+    },
+    {
+      "name": "hood",
+      "file": "jacket/hood.png",
+      "group": "jacket",
+      "parent": "Jacket",
+      "z_order": 19,
+      "pivot_px": [
+        485.0,
+        318.0
+      ],
+      "stacks": "closed",
+      "opaque_px": 39100,
+      "visible_px_closed": 8268,
+      "visible_px_shirt": 0,
+      "hidden_px": 30832,
+      "hidden_max_extent_px": 86,
+      "hidden_zones": [
+        "behind_hood_under_head_and_hair"
+      ]
+    },
+    {
+      "name": "hem_L",
+      "file": "jacket/hem_L.png",
+      "group": "jacket",
+      "parent": "Jacket",
+      "z_order": 20,
+      "pivot_px": [
+        380.0,
+        770.0
+      ],
+      "stacks": "closed",
+      "opaque_px": 5425,
+      "visible_px_closed": 3705,
+      "visible_px_shirt": 0,
+      "hidden_px": 1720,
+      "hidden_max_extent_px": 13,
+      "hidden_zones": [
+        "hem_underside"
+      ]
+    },
+    {
+      "name": "hem_R",
+      "file": "jacket/hem_R.png",
+      "group": "jacket",
+      "parent": "Jacket",
+      "z_order": 20,
+      "pivot_px": [
+        590.0,
+        770.0
+      ],
+      "stacks": "closed",
+      "opaque_px": 5548,
+      "visible_px_closed": 3900,
+      "visible_px_shirt": 0,
+      "hidden_px": 1648,
+      "hidden_max_extent_px": 13,
+      "hidden_zones": [
+        "hem_underside"
+      ]
+    },
+    {
+      "name": "side_L",
+      "file": "jacket/side_L.png",
+      "group": "jacket",
+      "parent": "Jacket",
+      "z_order": 21,
+      "pivot_px": [
+        348.0,
+        405.0
+      ],
+      "stacks": "closed",
+      "opaque_px": 29020,
+      "visible_px_closed": 8299,
+      "visible_px_shirt": 0,
+      "hidden_px": 20721,
+      "hidden_max_extent_px": 124,
+      "hidden_zones": [
+        "panel_edge_under_neighbours_hair_straps_sleeve_root",
+        "shoulder_cap_under_sleeve_root"
+      ]
+    },
+    {
+      "name": "side_R",
+      "file": "jacket/side_R.png",
+      "group": "jacket",
+      "parent": "Jacket",
+      "z_order": 21,
+      "pivot_px": [
+        622.0,
+        405.0
+      ],
+      "stacks": "closed",
+      "opaque_px": 27244,
+      "visible_px_closed": 6971,
+      "visible_px_shirt": 0,
+      "hidden_px": 20273,
+      "hidden_max_extent_px": 124,
+      "hidden_zones": [
+        "panel_edge_under_neighbours_hair_straps_sleeve_root",
+        "shoulder_cap_under_sleeve_root"
+      ]
+    },
+    {
+      "name": "front_L",
+      "file": "jacket/front_L.png",
+      "group": "jacket",
+      "parent": "Jacket",
+      "z_order": 22,
+      "pivot_px": [
+        380.0,
+        345.0
+      ],
+      "stacks": "closed",
+      "opaque_px": 31809,
+      "visible_px_closed": 30609,
+      "visible_px_shirt": 0,
+      "hidden_px": 5594,
+      "hidden_max_extent_px": 32,
+      "hidden_zones": [
+        "panel_edge_under_neighbours_hair_straps_sleeve_root"
+      ]
+    },
+    {
+      "name": "front_R",
+      "file": "jacket/front_R.png",
+      "group": "jacket",
+      "parent": "Jacket",
+      "z_order": 22,
+      "pivot_px": [
+        590.0,
+        345.0
+      ],
+      "stacks": "closed",
+      "opaque_px": 28448,
+      "visible_px_closed": 28570,
+      "visible_px_shirt": 0,
+      "hidden_px": 5702,
+      "hidden_max_extent_px": 32,
+      "hidden_zones": [
+        "panel_edge_under_neighbours_hair_straps_sleeve_root"
+      ]
+    },
+    {
+      "name": "hem_flap_L",
+      "file": "physics/hem_flap_L.png",
+      "group": "physics",
+      "parent": "PhysicsLoose",
+      "z_order": 23,
+      "pivot_px": [
+        330.0,
+        790.0
+      ],
+      "stacks": "closed",
+      "opaque_px": 975,
+      "visible_px_closed": 975,
+      "visible_px_shirt": 0,
+      "hidden_px": 0,
+      "hidden_max_extent_px": 0,
+      "hidden_zones": []
+    },
+    {
+      "name": "hem_flap_R",
+      "file": "physics/hem_flap_R.png",
+      "group": "physics",
+      "parent": "PhysicsLoose",
+      "z_order": 23,
+      "pivot_px": [
+        640.0,
+        790.0
+      ],
+      "stacks": "closed",
+      "opaque_px": 998,
+      "visible_px_closed": 998,
+      "visible_px_shirt": 0,
+      "hidden_px": 0,
+      "hidden_max_extent_px": 0,
+      "hidden_zones": []
+    },
+    {
+      "name": "belt",
+      "file": "harness/belt.png",
+      "group": "harness",
+      "parent": "Harness",
+      "z_order": 26,
+      "pivot_px": [
+        485.0,
+        700.0
+      ],
+      "stacks": "both",
+      "opaque_px": 6269,
+      "visible_px_closed": 6269,
+      "visible_px_shirt": 6269,
+      "hidden_px": 0,
+      "hidden_max_extent_px": 0,
+      "hidden_zones": []
+    },
+    {
+      "name": "vert_strap_L",
+      "file": "harness/vert_strap_L.png",
+      "group": "harness",
+      "parent": "Harness",
+      "z_order": 27,
+      "pivot_px": [
+        392.0,
+        690.0
+      ],
+      "stacks": "both",
+      "opaque_px": 7421,
+      "visible_px_closed": 7308,
+      "visible_px_shirt": 7089,
+      "hidden_px": 0,
+      "hidden_max_extent_px": 0,
+      "hidden_zones": []
+    },
+    {
+      "name": "vert_strap_R_inner",
+      "file": "harness/vert_strap_R_inner.png",
+      "group": "harness",
+      "parent": "Harness",
+      "z_order": 27,
+      "pivot_px": [
+        514.0,
+        690.0
+      ],
+      "stacks": "both",
+      "opaque_px": 8970,
+      "visible_px_closed": 8970,
+      "visible_px_shirt": 8537,
+      "hidden_px": 0,
+      "hidden_max_extent_px": 0,
+      "hidden_zones": []
+    },
+    {
+      "name": "vert_strap_R_outer",
+      "file": "harness/vert_strap_R_outer.png",
+      "group": "harness",
+      "parent": "Harness",
+      "z_order": 27,
+      "pivot_px": [
+        590.0,
+        805.0
+      ],
+      "stacks": "both",
+      "opaque_px": 4311,
+      "visible_px_closed": 3954,
+      "visible_px_shirt": 3818,
+      "hidden_px": 201,
+      "hidden_max_extent_px": 11,
+      "hidden_zones": []
+    },
+    {
+      "name": "pouch_L",
+      "file": "harness/pouch_L.png",
+      "group": "harness",
+      "parent": "Harness",
+      "z_order": 28,
+      "pivot_px": [
+        325.0,
+        815.0
+      ],
+      "stacks": "both",
+      "opaque_px": 5923,
+      "visible_px_closed": 5879,
+      "visible_px_shirt": 5484,
+      "hidden_px": 0,
+      "hidden_max_extent_px": 0,
+      "hidden_zones": []
+    },
+    {
+      "name": "pouch_R",
+      "file": "harness/pouch_R.png",
+      "group": "harness",
+      "parent": "Harness",
+      "z_order": 28,
+      "pivot_px": [
+        640.0,
+        822.0
+      ],
+      "stacks": "both",
+      "opaque_px": 8158,
+      "visible_px_closed": 8158,
+      "visible_px_shirt": 7977,
+      "hidden_px": 0,
+      "hidden_max_extent_px": 0,
+      "hidden_zones": []
+    },
+    {
+      "name": "strap_end_L",
+      "file": "physics/strap_end_L.png",
+      "group": "physics",
+      "parent": "PhysicsLoose",
+      "z_order": 29,
+      "pivot_px": [
+        368.0,
+        1040.0
+      ],
+      "stacks": "both",
+      "opaque_px": 2038,
+      "visible_px_closed": 2038,
+      "visible_px_shirt": 1960,
+      "hidden_px": 0,
+      "hidden_max_extent_px": 0,
+      "hidden_zones": []
+    },
+    {
+      "name": "strap_end_R",
+      "file": "physics/strap_end_R.png",
+      "group": "physics",
+      "parent": "PhysicsLoose",
+      "z_order": 29,
+      "pivot_px": [
+        616.0,
+        1030.0
+      ],
+      "stacks": "both",
+      "opaque_px": 1534,
+      "visible_px_closed": 1534,
+      "visible_px_shirt": 1491,
+      "hidden_px": 0,
+      "hidden_max_extent_px": 0,
+      "hidden_zones": []
+    },
+    {
+      "name": "tab_L",
+      "file": "physics/tab_L.png",
+      "group": "physics",
+      "parent": "PhysicsLoose",
+      "z_order": 29,
+      "pivot_px": [
+        295.0,
+        872.0
+      ],
+      "stacks": "both",
+      "opaque_px": 930,
+      "visible_px_closed": 930,
+      "visible_px_shirt": 730,
+      "hidden_px": 0,
+      "hidden_max_extent_px": 0,
+      "hidden_zones": []
+    },
+    {
+      "name": "chest_strap_L",
+      "file": "harness/chest_strap_L.png",
+      "group": "harness",
+      "parent": "Harness",
+      "z_order": 30,
+      "pivot_px": [
+        400.0,
+        360.0
+      ],
+      "stacks": "closed",
+      "opaque_px": 5944,
+      "visible_px_closed": 5941,
+      "visible_px_shirt": 0,
+      "hidden_px": 3,
+      "hidden_max_extent_px": 3,
+      "hidden_zones": []
+    },
+    {
+      "name": "chest_strap_L_shirt",
+      "file": "harness/chest_strap_L_shirt.png",
+      "group": "harness",
+      "parent": "Harness",
+      "z_order": 30,
+      "pivot_px": [
+        405.0,
+        345.0
+      ],
+      "stacks": "shirt",
+      "opaque_px": 9162,
+      "visible_px_closed": 0,
+      "visible_px_shirt": 8536,
+      "hidden_px": 626,
+      "hidden_max_extent_px": 9,
+      "hidden_zones": [
+        "strap_under_hair"
+      ]
+    },
+    {
+      "name": "chest_strap_R",
+      "file": "harness/chest_strap_R.png",
+      "group": "harness",
+      "parent": "Harness",
+      "z_order": 30,
+      "pivot_px": [
+        560.0,
+        362.0
+      ],
+      "stacks": "closed",
+      "opaque_px": 5560,
+      "visible_px_closed": 5559,
+      "visible_px_shirt": 0,
+      "hidden_px": 1,
+      "hidden_max_extent_px": 1,
+      "hidden_zones": []
+    },
+    {
+      "name": "chest_strap_R_shirt",
+      "file": "harness/chest_strap_R_shirt.png",
+      "group": "harness",
+      "parent": "Harness",
+      "z_order": 30,
+      "pivot_px": [
+        558.0,
+        345.0
+      ],
+      "stacks": "shirt",
+      "opaque_px": 9039,
+      "visible_px_closed": 0,
+      "visible_px_shirt": 8053,
+      "hidden_px": 1024,
+      "hidden_max_extent_px": 12,
+      "hidden_zones": [
+        "strap_under_hair"
+      ]
+    },
+    {
+      "name": "rear_hair",
+      "file": "hair_rear/rear_hair.png",
+      "group": "hair_rear",
+      "parent": "Root",
+      "z_order": 40,
+      "pivot_px": [
+        485.0,
+        296.0
+      ],
+      "stacks": "closed",
+      "opaque_px": 17407,
+      "visible_px_closed": 15938,
+      "visible_px_shirt": 0,
+      "hidden_px": 1469,
+      "hidden_max_extent_px": 42,
+      "hidden_zones": [
+        "hair_continuous_behind_arms(real strand blocks cloned from above/below the arm)"
+      ]
+    },
+    {
+      "name": "elbow_overlap_L",
+      "file": "arms/elbow_overlap_L.png",
+      "group": "arms",
+      "parent": "ArmL",
+      "z_order": 41,
+      "pivot_px": [
+        218.0,
+        437.0
+      ],
+      "stacks": "both",
+      "opaque_px": 1732,
+      "visible_px_closed": 0,
+      "visible_px_shirt": 0,
+      "hidden_px": 1732,
+      "hidden_max_extent_px": 0,
+      "hidden_zones": [
+        "rounded_folded_elbow_cap(shirt)"
+      ]
+    },
+    {
+      "name": "elbow_overlap_R",
+      "file": "arms/elbow_overlap_R.png",
+      "group": "arms",
+      "parent": "ArmR",
+      "z_order": 41,
+      "pivot_px": [
+        752.0,
+        437.0
+      ],
+      "stacks": "both",
+      "opaque_px": 1732,
+      "visible_px_closed": 0,
+      "visible_px_shirt": 0,
+      "hidden_px": 1732,
+      "hidden_max_extent_px": 0,
+      "hidden_zones": [
+        "rounded_folded_elbow_cap(shirt)"
+      ]
+    },
+    {
+      "name": "forearm_L",
+      "file": "arms/forearm_L.png",
+      "group": "arms",
+      "parent": "ArmL",
+      "z_order": 42,
+      "pivot_px": [
+        218.0,
+        437.0
+      ],
+      "stacks": "both",
+      "opaque_px": 7476,
+      "visible_px_closed": 0,
+      "visible_px_shirt": 4425,
+      "hidden_px": 3051,
+      "hidden_max_extent_px": 42,
+      "hidden_zones": [
+        "elbow_overlap_under_upper_arm",
+        "under_wrist_cuff"
+      ]
+    },
+    {
+      "name": "forearm_R",
+      "file": "arms/forearm_R.png",
+      "group": "arms",
+      "parent": "ArmR",
+      "z_order": 42,
+      "pivot_px": [
+        752.0,
+        437.0
+      ],
+      "stacks": "both",
+      "opaque_px": 7471,
+      "visible_px_closed": 0,
+      "visible_px_shirt": 4277,
+      "hidden_px": 3194,
+      "hidden_max_extent_px": 44,
+      "hidden_zones": [
+        "elbow_overlap_under_upper_arm",
+        "under_wrist_cuff"
+      ]
+    },
+    {
+      "name": "upper_arm_L",
+      "file": "arms/upper_arm_L.png",
+      "group": "arms",
+      "parent": "ArmL",
+      "z_order": 44,
+      "pivot_px": [
+        348.0,
+        405.0
+      ],
+      "stacks": "both",
+      "opaque_px": 7064,
+      "visible_px_closed": 0,
+      "visible_px_shirt": 7064,
+      "hidden_px": 0,
+      "hidden_max_extent_px": 0,
+      "hidden_zones": []
+    },
+    {
+      "name": "upper_arm_R",
+      "file": "arms/upper_arm_R.png",
+      "group": "arms",
+      "parent": "ArmR",
+      "z_order": 44,
+      "pivot_px": [
+        622.0,
+        405.0
+      ],
+      "stacks": "both",
+      "opaque_px": 6983,
+      "visible_px_closed": 0,
+      "visible_px_shirt": 6983,
+      "hidden_px": 0,
+      "hidden_max_extent_px": 0,
+      "hidden_zones": []
+    },
+    {
+      "name": "rear_hair_shirt",
+      "file": "hair_rear/rear_hair_shirt.png",
+      "group": "hair_rear",
+      "parent": "Root",
+      "z_order": 45,
+      "pivot_px": [
+        485.0,
+        296.0
+      ],
+      "stacks": "shirt",
+      "opaque_px": 26397,
+      "visible_px_closed": 0,
+      "visible_px_shirt": 26397,
+      "hidden_px": 0,
+      "hidden_max_extent_px": 0,
+      "hidden_zones": []
+    },
+    {
+      "name": "sleeve_elbow_L",
+      "file": "jacket/sleeve_elbow_L.png",
+      "group": "jacket",
+      "parent": "SleeveL",
+      "z_order": 45,
+      "pivot_px": [
+        218.0,
+        437.0
+      ],
+      "stacks": "closed",
+      "opaque_px": 3330,
+      "visible_px_closed": 0,
+      "visible_px_shirt": 0,
+      "hidden_px": 3330,
+      "hidden_max_extent_px": 0,
+      "hidden_zones": [
+        "rounded_folded_elbow_cap(jacket)"
+      ]
+    },
+    {
+      "name": "sleeve_elbow_R",
+      "file": "jacket/sleeve_elbow_R.png",
+      "group": "jacket",
+      "parent": "SleeveR",
+      "z_order": 45,
+      "pivot_px": [
+        752.0,
+        437.0
+      ],
+      "stacks": "closed",
+      "opaque_px": 3330,
+      "visible_px_closed": 0,
+      "visible_px_shirt": 0,
+      "hidden_px": 3330,
+      "hidden_max_extent_px": 0,
+      "hidden_zones": [
+        "rounded_folded_elbow_cap(jacket)"
+      ]
+    },
+    {
+      "name": "sleeve_fore_L",
+      "file": "jacket/sleeve_fore_L.png",
+      "group": "jacket",
+      "parent": "SleeveL",
+      "z_order": 46,
+      "pivot_px": [
+        218.0,
+        437.0
+      ],
+      "stacks": "closed",
+      "opaque_px": 10346,
+      "visible_px_closed": 4640,
+      "visible_px_shirt": 0,
+      "hidden_px": 5706,
+      "hidden_max_extent_px": 73,
+      "hidden_zones": [
+        "elbow_overlap_under_upper_sleeve",
+        "under_jacket_cuff"
+      ]
+    },
+    {
+      "name": "sleeve_fore_R",
+      "file": "jacket/sleeve_fore_R.png",
+      "group": "jacket",
+      "parent": "SleeveR",
+      "z_order": 46,
+      "pivot_px": [
+        752.0,
+        437.0
+      ],
+      "stacks": "closed",
+      "opaque_px": 10333,
+      "visible_px_closed": 4627,
+      "visible_px_shirt": 0,
+      "hidden_px": 5706,
+      "hidden_max_extent_px": 73,
+      "hidden_zones": [
+        "elbow_overlap_under_upper_sleeve",
+        "under_jacket_cuff"
+      ]
+    },
+    {
+      "name": "sleeve_upper_L",
+      "file": "jacket/sleeve_upper_L.png",
+      "group": "jacket",
+      "parent": "SleeveL",
+      "z_order": 48,
+      "pivot_px": [
+        348.0,
+        405.0
+      ],
+      "stacks": "closed",
+      "opaque_px": 9788,
+      "visible_px_closed": 9788,
+      "visible_px_shirt": 0,
+      "hidden_px": 0,
+      "hidden_max_extent_px": 0,
+      "hidden_zones": []
+    },
+    {
+      "name": "sleeve_upper_R",
+      "file": "jacket/sleeve_upper_R.png",
+      "group": "jacket",
+      "parent": "SleeveR",
+      "z_order": 48,
+      "pivot_px": [
+        622.0,
+        405.0
+      ],
+      "stacks": "closed",
+      "opaque_px": 9553,
+      "visible_px_closed": 9553,
+      "visible_px_shirt": 0,
+      "hidden_px": 0,
+      "hidden_max_extent_px": 0,
+      "hidden_zones": []
+    },
+    {
+      "name": "palm_L",
+      "file": "hands/palm_L.png",
+      "group": "hands",
+      "parent": "HandL",
+      "z_order": 60,
+      "pivot_px": [
+        100.0,
+        448.0
+      ],
+      "stacks": "both",
+      "opaque_px": 2733,
+      "visible_px_closed": 717,
+      "visible_px_shirt": 750,
+      "hidden_px": 1961,
+      "hidden_max_extent_px": 56,
+      "hidden_zones": [
+        "palm_under_fingers+wrist_into_cuff(cloned palm skin)"
+      ]
+    },
+    {
+      "name": "palm_R",
+      "file": "hands/palm_R.png",
+      "group": "hands",
+      "parent": "HandR",
+      "z_order": 60,
+      "pivot_px": [
+        868.0,
+        448.0
+      ],
+      "stacks": "both",
+      "opaque_px": 2747,
+      "visible_px_closed": 727,
+      "visible_px_shirt": 836,
+      "hidden_px": 1894,
+      "hidden_max_extent_px": 57,
+      "hidden_zones": [
+        "palm_under_fingers+wrist_into_cuff(cloned palm skin)"
+      ]
+    },
+    {
+      "name": "pinky_base_L",
+      "file": "hands/pinky_base_L.png",
+      "group": "hands",
+      "parent": "HandL",
+      "z_order": 61,
+      "pivot_px": [
+        51.0,
+        438.0
+      ],
+      "stacks": "both",
+      "opaque_px": 375,
+      "visible_px_closed": 119,
+      "visible_px_shirt": 47,
+      "hidden_px": 256,
+      "hidden_max_extent_px": 6,
+      "hidden_zones": [
+        "under_tip_and_front_finger(cloned skin)"
+      ]
+    },
+    {
+      "name": "pinky_base_R",
+      "file": "hands/pinky_base_R.png",
+      "group": "hands",
+      "parent": "HandR",
+      "z_order": 61,
+      "pivot_px": [
+        919.0,
+        438.0
+      ],
+      "stacks": "both",
+      "opaque_px": 383,
+      "visible_px_closed": 121,
+      "visible_px_shirt": 53,
+      "hidden_px": 262,
+      "hidden_max_extent_px": 6,
+      "hidden_zones": [
+        "under_tip_and_front_finger(cloned skin)"
+      ]
+    },
+    {
+      "name": "ring_base_L",
+      "file": "hands/ring_base_L.png",
+      "group": "hands",
+      "parent": "HandL",
+      "z_order": 62,
+      "pivot_px": [
+        52.0,
+        442.0
+      ],
+      "stacks": "both",
+      "opaque_px": 380,
+      "visible_px_closed": 112,
+      "visible_px_shirt": 63,
+      "hidden_px": 261,
+      "hidden_max_extent_px": 6,
+      "hidden_zones": [
+        "under_tip_and_front_finger(cloned skin)"
+      ]
+    },
+    {
+      "name": "ring_base_R",
+      "file": "hands/ring_base_R.png",
+      "group": "hands",
+      "parent": "HandR",
+      "z_order": 62,
+      "pivot_px": [
+        918.0,
+        442.0
+      ],
+      "stacks": "both",
+      "opaque_px": 390,
+      "visible_px_closed": 113,
+      "visible_px_shirt": 73,
+      "hidden_px": 264,
+      "hidden_max_extent_px": 6,
+      "hidden_zones": [
+        "under_tip_and_front_finger(cloned skin)"
+      ]
+    },
+    {
+      "name": "middle_base_L",
+      "file": "hands/middle_base_L.png",
+      "group": "hands",
+      "parent": "HandL",
+      "z_order": 63,
+      "pivot_px": [
+        53.0,
+        446.0
+      ],
+      "stacks": "both",
+      "opaque_px": 360,
+      "visible_px_closed": 100,
+      "visible_px_shirt": 72,
+      "hidden_px": 242,
+      "hidden_max_extent_px": 6,
+      "hidden_zones": [
+        "under_tip_and_front_finger(cloned skin)"
+      ]
+    },
+    {
+      "name": "middle_base_R",
+      "file": "hands/middle_base_R.png",
+      "group": "hands",
+      "parent": "HandR",
+      "z_order": 63,
+      "pivot_px": [
+        917.0,
+        446.0
+      ],
+      "stacks": "both",
+      "opaque_px": 365,
+      "visible_px_closed": 99,
+      "visible_px_shirt": 77,
+      "hidden_px": 236,
+      "hidden_max_extent_px": 6,
+      "hidden_zones": [
+        "under_tip_and_front_finger(cloned skin)"
+      ]
+    },
+    {
+      "name": "index_base_L",
+      "file": "hands/index_base_L.png",
+      "group": "hands",
+      "parent": "HandL",
+      "z_order": 64,
+      "pivot_px": [
+        55.0,
+        450.0
+      ],
+      "stacks": "both",
+      "opaque_px": 397,
+      "visible_px_closed": 200,
+      "visible_px_shirt": 122,
+      "hidden_px": 197,
+      "hidden_max_extent_px": 6,
+      "hidden_zones": [
+        "under_tip_and_front_finger(cloned skin)"
+      ]
+    },
+    {
+      "name": "index_base_R",
+      "file": "hands/index_base_R.png",
+      "group": "hands",
+      "parent": "HandR",
+      "z_order": 64,
+      "pivot_px": [
+        915.0,
+        450.0
+      ],
+      "stacks": "both",
+      "opaque_px": 391,
+      "visible_px_closed": 192,
+      "visible_px_shirt": 106,
+      "hidden_px": 199,
+      "hidden_max_extent_px": 6,
+      "hidden_zones": [
+        "under_tip_and_front_finger(cloned skin)"
+      ]
+    },
+    {
+      "name": "thumb_base_L",
+      "file": "hands/thumb_base_L.png",
+      "group": "hands",
+      "parent": "HandL",
+      "z_order": 65,
+      "pivot_px": [
+        64.0,
+        458.0
+      ],
+      "stacks": "both",
+      "opaque_px": 367,
+      "visible_px_closed": 296,
+      "visible_px_shirt": 275,
+      "hidden_px": 71,
+      "hidden_max_extent_px": 6,
+      "hidden_zones": [
+        "under_tip_and_front_finger(cloned skin)"
+      ]
+    },
+    {
+      "name": "thumb_base_R",
+      "file": "hands/thumb_base_R.png",
+      "group": "hands",
+      "parent": "HandR",
+      "z_order": 65,
+      "pivot_px": [
+        906.0,
+        458.0
+      ],
+      "stacks": "both",
+      "opaque_px": 377,
+      "visible_px_closed": 303,
+      "visible_px_shirt": 279,
+      "hidden_px": 74,
+      "hidden_max_extent_px": 6,
+      "hidden_zones": [
+        "under_tip_and_front_finger(cloned skin)"
+      ]
+    },
+    {
+      "name": "pinky_tip_L",
+      "file": "hands/pinky_tip_L.png",
+      "group": "hands",
+      "parent": "HandL",
+      "z_order": 66,
+      "pivot_px": [
+        26.0,
+        442.0
+      ],
+      "stacks": "both",
+      "opaque_px": 50,
+      "visible_px_closed": 50,
+      "visible_px_shirt": 0,
+      "hidden_px": 0,
+      "hidden_max_extent_px": 0,
+      "hidden_zones": []
+    },
+    {
+      "name": "pinky_tip_R",
+      "file": "hands/pinky_tip_R.png",
+      "group": "hands",
+      "parent": "HandR",
+      "z_order": 66,
+      "pivot_px": [
+        944.0,
+        442.0
+      ],
+      "stacks": "both",
+      "opaque_px": 49,
+      "visible_px_closed": 49,
+      "visible_px_shirt": 1,
+      "hidden_px": 0,
+      "hidden_max_extent_px": 0,
+      "hidden_zones": []
+    },
+    {
+      "name": "ring_tip_L",
+      "file": "hands/ring_tip_L.png",
+      "group": "hands",
+      "parent": "HandL",
+      "z_order": 67,
+      "pivot_px": [
+        26.0,
+        445.0
+      ],
+      "stacks": "both",
+      "opaque_px": 70,
+      "visible_px_closed": 41,
+      "visible_px_shirt": 3,
+      "hidden_px": 29,
+      "hidden_max_extent_px": 3,
+      "hidden_zones": []
+    },
+    {
+      "name": "ring_tip_R",
+      "file": "hands/ring_tip_R.png",
+      "group": "hands",
+      "parent": "HandR",
+      "z_order": 67,
+      "pivot_px": [
+        944.0,
+        445.0
+      ],
+      "stacks": "both",
+      "opaque_px": 57,
+      "visible_px_closed": 40,
+      "visible_px_shirt": 1,
+      "hidden_px": 17,
+      "hidden_max_extent_px": 3,
+      "hidden_zones": []
+    },
+    {
+      "name": "middle_tip_L",
+      "file": "hands/middle_tip_L.png",
+      "group": "hands",
+      "parent": "HandL",
+      "z_order": 68,
+      "pivot_px": [
+        26.0,
+        448.0
+      ],
+      "stacks": "both",
+      "opaque_px": 80,
+      "visible_px_closed": 33,
+      "visible_px_shirt": 4,
+      "hidden_px": 47,
+      "hidden_max_extent_px": 5,
+      "hidden_zones": []
+    },
+    {
+      "name": "middle_tip_R",
+      "file": "hands/middle_tip_R.png",
+      "group": "hands",
+      "parent": "HandR",
+      "z_order": 68,
+      "pivot_px": [
+        944.0,
+        448.0
+      ],
+      "stacks": "both",
+      "opaque_px": 53,
+      "visible_px_closed": 36,
+      "visible_px_shirt": 1,
+      "hidden_px": 17,
+      "hidden_max_extent_px": 3,
+      "hidden_zones": []
+    },
+    {
+      "name": "index_tip_L",
+      "file": "hands/index_tip_L.png",
+      "group": "hands",
+      "parent": "HandL",
+      "z_order": 69,
+      "pivot_px": [
+        26.0,
+        452.0
+      ],
+      "stacks": "both",
+      "opaque_px": 175,
+      "visible_px_closed": 175,
+      "visible_px_shirt": 125,
+      "hidden_px": 0,
+      "hidden_max_extent_px": 0,
+      "hidden_zones": []
+    },
+    {
+      "name": "index_tip_R",
+      "file": "hands/index_tip_R.png",
+      "group": "hands",
+      "parent": "HandR",
+      "z_order": 69,
+      "pivot_px": [
+        944.0,
+        452.0
+      ],
+      "stacks": "both",
+      "opaque_px": 182,
+      "visible_px_closed": 182,
+      "visible_px_shirt": 131,
+      "hidden_px": 0,
+      "hidden_max_extent_px": 0,
+      "hidden_zones": []
+    },
+    {
+      "name": "thumb_tip_L",
+      "file": "hands/thumb_tip_L.png",
+      "group": "hands",
+      "parent": "HandL",
+      "z_order": 70,
+      "pivot_px": [
+        45.0,
+        462.0
+      ],
+      "stacks": "both",
+      "opaque_px": 151,
+      "visible_px_closed": 151,
+      "visible_px_shirt": 148,
+      "hidden_px": 0,
+      "hidden_max_extent_px": 0,
+      "hidden_zones": []
+    },
+    {
+      "name": "thumb_tip_R",
+      "file": "hands/thumb_tip_R.png",
+      "group": "hands",
+      "parent": "HandR",
+      "z_order": 70,
+      "pivot_px": [
+        925.0,
+        462.0
+      ],
+      "stacks": "both",
+      "opaque_px": 153,
+      "visible_px_closed": 153,
+      "visible_px_shirt": 149,
+      "hidden_px": 0,
+      "hidden_max_extent_px": 0,
+      "hidden_zones": []
+    },
+    {
+      "name": "cuff_L",
+      "file": "jacket/cuff_L.png",
+      "group": "jacket",
+      "parent": "SleeveL",
+      "z_order": 72,
+      "pivot_px": [
+        100.0,
+        448.0
+      ],
+      "stacks": "closed",
+      "opaque_px": 3973,
+      "visible_px_closed": 1948,
+      "visible_px_shirt": 0,
+      "hidden_px": 2025,
+      "hidden_max_extent_px": 38,
+      "hidden_zones": [
+        "under_tech_cuff"
+      ]
+    },
+    {
+      "name": "cuff_R",
+      "file": "jacket/cuff_R.png",
+      "group": "jacket",
+      "parent": "SleeveR",
+      "z_order": 72,
+      "pivot_px": [
+        868.0,
+        448.0
+      ],
+      "stacks": "closed",
+      "opaque_px": 3962,
+      "visible_px_closed": 1805,
+      "visible_px_shirt": 0,
+      "hidden_px": 2157,
+      "hidden_max_extent_px": 39,
+      "hidden_zones": [
+        "under_tech_cuff"
+      ]
+    },
+    {
+      "name": "wrist_cuff_L",
+      "file": "harness/wrist_cuff_L.png",
+      "group": "harness",
+      "parent": "ArmL",
+      "z_order": 74,
+      "pivot_px": [
+        100.0,
+        448.0
+      ],
+      "stacks": "both",
+      "opaque_px": 2025,
+      "visible_px_closed": 2025,
+      "visible_px_shirt": 1632,
+      "hidden_px": 0,
+      "hidden_max_extent_px": 0,
+      "hidden_zones": []
+    },
+    {
+      "name": "wrist_cuff_R",
+      "file": "harness/wrist_cuff_R.png",
+      "group": "harness",
+      "parent": "ArmR",
+      "z_order": 74,
+      "pivot_px": [
+        868.0,
+        448.0
+      ],
+      "stacks": "both",
+      "opaque_px": 2158,
+      "visible_px_closed": 2158,
+      "visible_px_shirt": 1625,
+      "hidden_px": 0,
+      "hidden_max_extent_px": 0,
+      "hidden_zones": []
+    }
+  ],
+  "notes": {
+    "ownership": "every visible pixel of still_closed is owned by exactly one layer carrying that pixel; still_shirt pixels fill what still_closed hides under higher layers",
+    "hair_variants": "rear_hair = jacket-on layout (still_closed; continuous behind the sleeves); rear_hair_shirt = jacket-off layout (still_shirt; falls in front of the shirt arms). Toggle with the jacket-hide parameter.",
+    "chest_strap_variants": "chest_strap_L/R = jacket-on path (still_closed, over the jacket); chest_strap_L/R_shirt = jacket-off path (still_shirt). Toggle with the jacket-hide parameter; both are harness, neither is in the jacket.",
+    "z_rule": "body < harness_tuck < jacket body < harness (belt/straps/pouches/chest straps) < rear_hair < shirt arms < jacket sleeves < hands < jacket cuffs < tech wrist cuffs",
+    "harness_tuck": "stretches of belt/strap/pouch that still_closed draws under the jacket front/hem; still harness group, never in jacket layers",
+    "hood": "single mesh + physics",
+    "orange_hem": "hem_flap_L/R jacket liner physics",
+    "mid_thigh_tab": "tab_L limited-swing retainer",
+    "right_thigh_straps": "two as drawn (vert_strap_R_inner/outer)",
+    "hands": "palm + thumb/index/middle/ring/pinky base+tip; fingers stacked palm-down: index in front, pinky behind",
+    "sleeves": "Nick's 'sleeve' = Sleeve L/R group (sleeve_upper + sleeve_elbow overlap + sleeve_fore) swaying as one; split only so the elbow can fold",
+    "hidden_zones": "painted only from real Ember pixels: copied from the cloth at that spot or mirror/directionally continued texture; no hatch, no flat fill"
+  }
+}

@@ -1,0 +1,45 @@
+# Ember puppet layer stacking order, back (top of list) to front (bottom of list).
+# All files are 2048x2048 RGBA on the master canvas; stack in this order to rebuild ember_master.png.
+# Default stack (used for recomposite.png): every line below marked [default]. blush is included in the stack but off by default (opacity 0) because it's not in the master.
+# iris_L/R are full circles: clip them to eye_white_L/R (Inochi2D mask). recomposite.png applies that clip.
+
+01  hair_back.png  [default]
+02  head_back.png  [default]
+03  neck.png  [default]
+04  neck_shadow.png  [default]  (new in v2: soft chin shadow on the neck; clip to neck)
+05  bodysuit.png  [default]
+06  jacket_body.png  [default]
+07  jacket_hood_collar.png  [default]
+08  straps_accents.png  [default]
+09  ear_R.png  [default]
+10  ear_L.png  [default]
+11  face_base.png  [default]
+12  face_hair_shadow.png  [default]  (extra layer: hair shadow cast on the skin, cut out of face_base; clip to face_base)
+13  nose.png  [default]
+14  blush.png  [optional overlay, default opacity 0]
+15  eye_white_R.png  [default]
+16  eye_white_L.png  [default]
+17  iris_R.png  [default]  (clip to eye_white_R)
+18  iris_L.png  [default]  (clip to eye_white_L)
+19  eye_highlight_R.png  [default]
+20  eye_highlight_L.png  [default]
+21  lash_lower_R.png  [default]
+22  lash_lower_L.png  [default]
+23  lash_upper_R.png  [default]
+24  lash_upper_L.png  [default]
+25  brow_R.png  [default]
+26  brow_L.png  [default]
+27  mouth_closed_neutral.png  [default]
+28  hair_side_R.png  [default]
+29  hair_side_L.png  [default]
+30  earring.png  [default]
+31  hair_front_bangs.png  [default]
+32  headband.png  [default]
+
+# Swap-in expression layers (not in the default stack):
+# Eyes: eye_closed_L/R.png and eye_half_L/R.png go directly above lash_upper_L/R, and you hide lash_upper_L/R while they are on.
+#       v2: each one carries a clean skin lid patch (face_base colour) that covers the eye white and iris, plus a single painted lash curve
+#       (eye_closed: tapered curve with a small outer wing; eye_half: the upper lash lowered to half height).
+# Brows: brow_raised_L/R.png, brow_angry_L/R.png and brow_sad_L/R.png (new in v2) each replace brow_L/R in the same slot.
+# Mouth: mouth_smile, mouth_frown, mouth_open, mouth_A, mouth_E, mouth_I, mouth_O and mouth_U each replace mouth_closed_neutral in the same slot.
+#        Modular open mouth: mouth_interior.png, then mouth_teeth.png, then mouth_tongue.png (all fit the mouth_open outline). Clip teeth and tongue to mouth_interior.

@@ -4,7 +4,7 @@
 
 A multiplayer spiritual successor to the 1992 Sega Genesis game **Death Duel**, preserving its first-person reticle aiming and limited arena scrolling.
 
-**Status: repository setup and design documentation only. No game implementation is included. Engine selection is open.**
+**Status: repository setup and design documentation. Nick’s Ember Inochi2D look pack is in [Ember/](Ember/). No game implementation is included. Engine selection is open.**
 
 ## The game
 
@@ -33,6 +33,7 @@ This milestone is a target, not an existing build.
 | [Project status](docs/STATUS.md) | Created, verified, and unfinished work |
 | [Contributor rules](AGENTS.md) | Guardrails for humans and development agents |
 | [Connect your tools](docs/CONNECT_YOUR_TOOLS.md) | Use this repository in ChatGPT, Cursor, and Claude |
+| [Ember look pack](Ember/) | Inochi2D face, hair, jacket, body layers, and puppet files for Claude |
 
 ## Before anyone writes game code
 
